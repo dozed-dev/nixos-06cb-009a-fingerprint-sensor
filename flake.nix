@@ -16,6 +16,7 @@
       localPackages = localPackages;
     };
   in {
+    localPackages = localPackages;
     nixosModules.python-validity = args: import ./modules/python-validity (
       args // {
         localPackages = localPackages;
